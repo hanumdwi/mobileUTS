@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.woe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WOE">
+        <activity android:name=".NotifDokter"></activity>
+        <activity android:name=".NotifPasien" />
+        <activity android:name=".HistoryDokter" />
+        <activity android:name=".ProfileDokter" />
+        <activity android:name=".CatatanPasienDariDokter" />
+        <activity android:name=".JadwalSayaMenuDokter" />
+        <activity android:name=".Dokter" />
+        <activity android:name=".Maps" />
+        <activity android:name=".History" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Poliklinik" />
+        <activity android:name=".CatatanPasien" />
+        <activity android:name=".ProfilePasien" />
+        <activity android:name=".Pengumuman" />
+        <activity android:name=".MenuDokter" />
+        <activity android:name=".LOGIN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuPasien" />
+        <activity android:name=".LoginPasien" />
+        <activity android:name=".LoginDokter" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
